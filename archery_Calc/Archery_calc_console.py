@@ -52,6 +52,7 @@ def calc():
 
 def pts_collector():
     for i in range(0,10):
+        print("Shoot No.: ", i)
         Arrow1_arch_1 = int(input("\nPlease Archer 1, input your highest score for this shoot: "))
         Arrow2_arch_1 = int(input("Please Archer 1, input your second highest score for this shoot: "))
         Arrow3_arch_1 = int(input("Please Archer 1, input the lowest score for this shoot: "))
@@ -65,12 +66,12 @@ def pts_collector():
         sum_arch_2 = Arrow1_arch_2 + Arrow2_arch_2 + Arrow3_arch_2
         print("\nArcher 2")
         print("The sum of this shoot is: ", sum_arch_2)
-
+        print("--------------------------------------------------------")
         sleep(120)
         a = sum_arch_1+ sum_arch_1
         b = sum_arch_2 + sum_arch_2
-    print(sum_arch_1)
-    print(sum_arch_2)
+    print("\n",a)
+    print(b)
 ### Main Program
 archer=[]
 
