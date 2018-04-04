@@ -58,11 +58,14 @@ def calc():
             a = a+1
             b = b+1
         print("\n-------------------------------------------------------")
-    if a == 6:
-        print("Archer 1 Wins with: ", a ,"to", b)
+        if a == 6 or a > 6:
+            print("Archer 1 Wins with: ", a ,"to", b)
+            break
 
-    elif b == 6:
-        print("Archer 2 Wins with: ", b ,"to", a)
+        elif b == 6 or b > 6:
+            print("Archer 2 Wins with: ", b ,"to", a)
+            break
+
 
 def pts_collector():
     for i in range(1,11):
