@@ -15,7 +15,7 @@ def options():
     print("\n[1]Set Archers")
     print("[2]Tournament Mode(Calculator)")
     print("[3]Collecting Pts (Calculator)")
-    print("[0]Quit")
+    print("[q]Quit")
 
     return input("What would you like to do? ")
 
