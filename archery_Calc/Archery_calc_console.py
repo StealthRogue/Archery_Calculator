@@ -1,6 +1,5 @@
 import os
 from time import sleep
-import string
 
 #Functions
 
